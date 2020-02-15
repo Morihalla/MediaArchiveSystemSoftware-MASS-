@@ -1,0 +1,10 @@
+// Cool Class Diagram
+[Earth-616|id:String;Title: String;era:String;age:String]++->->[Issue]
+[Issue|Id: String;Title:String]++->[Story|Id:String;Title:String]
+[LinkTable|CollectorId:String;IssueId:String]
+[Earth-616]<>[LinkTable]
+[Issue]<>[LinkTable]
+[Story]<>[LinkTable]
+[Earth-616]++->[Story]
+
+https://yuml.me/diagram/scruffy/class/draw
