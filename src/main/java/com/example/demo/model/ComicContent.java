@@ -10,15 +10,15 @@ import java.util.Collection;
 public class ComicContent implements Serializable {
 
     @Id
-    @Column("Id")
+    @Column(name = "Id")
     String id;
 
-    @Column("Title")
+    @Column(name = "Title")
     String title;
 
-    @Column("Series")
+    @Column(name = "Series")
     String series;
 
-    @ManyToMany (mappedBy = "collectors")
+    @ManyToMany (mappedBy = "contents")
     private Collection<Collector> collectors = new ArrayList<>();
 }

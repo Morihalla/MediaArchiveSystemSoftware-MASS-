@@ -6,20 +6,20 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 @Entity
-@Table(schema = "Earth_616")
+@Table(name = "Earth_616")
 public class Collector implements Serializable {
 
     @Id
-    @Column("Id")
+    @Column(name = "Id")
     String id;
 
-    @Column("title")
+    @Column(name = "title")
     String title;
 
-    @Column("era")
+    @Column(name = "era")
     String era;
 
-    @Column("age")
+    @Column(name = "age")
     String age;
 
     @ManyToMany
