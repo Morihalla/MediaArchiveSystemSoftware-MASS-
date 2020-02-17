@@ -1,13 +1,13 @@
 package com.example.demo.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Collection;
 
 @Entity
-@Table(schema = "earth_616")
-public class Collector {
+@Table(schema = "Earth_616")
+public class Collector implements Serializable {
 
     @Id
     @Column("Id")
@@ -21,4 +21,10 @@ public class Collector {
 
     @Column("age")
     String age;
+
+    @ManyToMany
+    @JoinTable (name = "LinkTable",
+    joinColumns = @JoinColumn (name = "CollectorId"),
+    inverseJoinColumns = @JoinColumn (name = "ContentID"))
+    private Collection <ComicContent> contents = new ArrayList<>();
 }
