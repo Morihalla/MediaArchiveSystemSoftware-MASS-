@@ -1,23 +1,24 @@
 package com.example.demo.model;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(schema = "earth_616")
 public class Collector {
 
     @Id
-    @Autowired
+    @Column("Id")
     String id;
 
-    @Autowired
+    @Column("title")
     String title;
 
-    @Autowired
+    @Column("era")
     String era;
 
-    @Autowired
+    @Column("age")
     String age;
 }

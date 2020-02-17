@@ -1,20 +1,21 @@
 package com.example.demo.model;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name="ContentList")
 public class ComicContent {
 
     @Id
-    @Autowired
+    @Column("Id")
     String id;
 
-    @Autowired
+    @Column("Title")
     String title;
 
-    @Autowired
+    @Column("Series")
     String series;
 }
