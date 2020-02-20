@@ -21,4 +21,36 @@ public class ComicContent implements Serializable {
 
     @ManyToMany (mappedBy = "contents")
     private Collection<Collector> collectors = new ArrayList<>();
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getSeries() {
+        return series;
+    }
+
+    public void setSeries(String series) {
+        this.series = series;
+    }
+
+    public Collection<Collector> getCollectors() {
+        return collectors;
+    }
+
+    public void setCollectors(Collection<Collector> collectors) {
+        this.collectors = collectors;
+    }
 }
