@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name="ContentList")
+@Table(name= "content_list")
 public class ComicContent implements Serializable {
 
     @Id

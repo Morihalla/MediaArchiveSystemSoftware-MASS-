@@ -6,16 +6,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/Collectors")
-public class CollectorController {
+@RequestMapping(value = "/Contents")
+public class ContentController {
 
     @Autowired
-    private CollectorRepository collectorRepository;
+    private ContentRepository contentRepository;
 
     @RequestMapping(value = "/all", method = RequestMethod.GET)
-    public void collectorList() {
-        collectorRepository.findAll().forEach(System.out::println);
-}
-
-
+    public void contentList() {
+        contentRepository.findAll().forEach(System.out::println);
+    }
 }
