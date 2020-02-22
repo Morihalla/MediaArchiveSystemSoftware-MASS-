@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "Earth_616")
+@Table(name = "earth_616")
 public class Collector implements Serializable {
 
     @Id
@@ -23,9 +23,9 @@ public class Collector implements Serializable {
     String age;
 
     @ManyToMany
-    @JoinTable (name = "LinkTable",
+    @JoinTable (name = "link_table",
     joinColumns = @JoinColumn (name = "CollectorId"),
-    inverseJoinColumns = @JoinColumn (name = "ContentID"))
+    inverseJoinColumns = @JoinColumn (name = "ContentId"))
     private List <ComicContent> contents = new ArrayList<>();
 
     public String getId() {
