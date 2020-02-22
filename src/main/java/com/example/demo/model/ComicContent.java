@@ -46,10 +46,6 @@ public class ComicContent implements Serializable {
         this.series = series;
     }
 
-    public List<Collector> getCollectors() {
-        return collectors;
-    }
-
     public void setCollectors(List<Collector> collectors) {
         this.collectors = collectors;
     }
