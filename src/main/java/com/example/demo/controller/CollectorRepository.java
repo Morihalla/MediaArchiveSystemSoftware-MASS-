@@ -11,7 +11,13 @@ public interface CollectorRepository extends CrudRepository<Collector, String> {
 
      List<Collector> findAll();
 
-     Collector save (Collector collector);
+     List<Collector> findCollectorsByTitleContaining(String tag);
+
+     List<Collector> findCollectorsByTitleContainingOrContentsContaining(String tag,String contentTag);
+
+     default void updateCollector(Collector collector){
+          save(collector);
+     }
 
      @Override
      void delete(Collector collector);

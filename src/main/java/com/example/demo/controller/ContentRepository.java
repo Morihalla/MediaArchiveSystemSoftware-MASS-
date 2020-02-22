@@ -11,6 +11,10 @@ public interface ContentRepository extends CrudRepository <ComicContent, String>
 
     List<ComicContent> findAll();
 
+    List<ComicContent> findComicContentsByTitleContaining(String tag);
+
+    List<ComicContent> findComicContentsBySeriesContainingOrderByIdDesc(String tag);
+
     ComicContent save (ComicContent comicContent);
 
     @Override
