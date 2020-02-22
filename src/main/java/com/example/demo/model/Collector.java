@@ -4,6 +4,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
 @Entity
 @Table(name = "Earth_616")
@@ -26,7 +27,7 @@ public class Collector implements Serializable {
     @JoinTable (name = "LinkTable",
     joinColumns = @JoinColumn (name = "CollectorId"),
     inverseJoinColumns = @JoinColumn (name = "ContentID"))
-    private Collection <ComicContent> contents = new ArrayList<>();
+    private List <ComicContent> contents = new ArrayList<>();
 
     public String getId() {
         return id;
@@ -60,11 +61,11 @@ public class Collector implements Serializable {
         this.age = age;
     }
 
-    public Collection<ComicContent> getContents() {
+    public List<ComicContent> getContents() {
         return contents;
     }
 
-    public void setContents(Collection<ComicContent> contents) {
+    public void setContents(List<ComicContent> contents) {
         this.contents = contents;
     }
 }

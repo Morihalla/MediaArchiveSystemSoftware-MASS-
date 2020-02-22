@@ -3,7 +3,7 @@ package com.example.demo.model;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Collection;
+import java.util.List;
 
 @Entity
 @Table(name="ContentList")
@@ -20,7 +20,7 @@ public class ComicContent implements Serializable {
     String series;
 
     @ManyToMany (mappedBy = "contents")
-    private Collection<Collector> collectors = new ArrayList<>();
+    private List<Collector> collectors = new ArrayList<>();
 
     public String getId() {
         return id;
@@ -46,11 +46,11 @@ public class ComicContent implements Serializable {
         this.series = series;
     }
 
-    public Collection<Collector> getCollectors() {
+    public List<Collector> getCollectors() {
         return collectors;
     }
 
-    public void setCollectors(Collection<Collector> collectors) {
+    public void setCollectors(List<Collector> collectors) {
         this.collectors = collectors;
     }
 }
