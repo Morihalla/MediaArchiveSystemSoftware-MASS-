@@ -60,11 +60,9 @@ public class Collector implements Serializable {
         this.age = age;
     }
 
-    public List<ComicContent> getContents() {
-        return contents;
-    }
-
     public void setContents(List<ComicContent> contents) {
         this.contents = contents;
     }
+
+
 }
