@@ -26,6 +26,7 @@ public class Collector implements Serializable {
     @JoinTable (name = "link_table",
     joinColumns = @JoinColumn (name = "CollectorId"),
     inverseJoinColumns = @JoinColumn (name = "ContentId"))
+    @Column(name = "content")
     private List <ComicContent> contents = new ArrayList<>();
 
     public String getId() {
@@ -44,10 +45,10 @@ public class Collector implements Serializable {
         this.title = title;
     }
 
+
     public String getEra() {
         return era;
     }
-
     public void setEra(String era) {
         this.era = era;
     }
