@@ -23,11 +23,11 @@ public class Collector implements Serializable {
     String age;
 
     @ManyToMany
-    @JoinTable (name = "link_table",
-    joinColumns = @JoinColumn (name = "CollectorId"),
-    inverseJoinColumns = @JoinColumn (name = "ContentId"))
+    @JoinTable(name = "link_table",
+            joinColumns = @JoinColumn(name = "CollectorId"),
+            inverseJoinColumns = @JoinColumn(name = "ContentId"))
     @Column(name = "content")
-    private List <ComicContent> contents = new ArrayList<>();
+    private List<ComicContent> contents = new ArrayList<>();
 
     public String getId() {
         return id;
@@ -49,6 +49,7 @@ public class Collector implements Serializable {
     public String getEra() {
         return era;
     }
+
     public void setEra(String era) {
         this.era = era;
     }
