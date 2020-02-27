@@ -19,10 +19,7 @@ public class ComicContent implements Serializable {
     @Column(name = "Series")
     String series;
 
-    @ManyToMany
-    @JoinTable (name = "link_table",
-            joinColumns = @JoinColumn (name = "ContentId"),
-            inverseJoinColumns = @JoinColumn (name = "CollectorId"))
+    @ManyToMany (mappedBy = "contents")
     @Column(name = "Collectors")
     private List <Collector> collectors = new ArrayList<>();
 
