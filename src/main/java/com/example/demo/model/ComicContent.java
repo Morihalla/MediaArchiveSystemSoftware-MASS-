@@ -58,9 +58,9 @@ public class ComicContent implements Serializable {
     @Override
     public String toString() {
         return "ComicContent{" +
-                "id='" + id + '\'' +
-                ", title='" + title + '\'' +
-                ", series='" + series + '\'' +
+                "id:" + id + '\'' +
+                ", title:" + title + '\'' +
+                ", series:" + series + '\'' +
                 '}';
     }
 }
