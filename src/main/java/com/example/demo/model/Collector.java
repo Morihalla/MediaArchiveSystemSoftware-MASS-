@@ -66,6 +66,10 @@ public class Collector implements Serializable {
         this.contents = contents;
     }
 
+    public List<ComicContent> getContents() {
+        return contents;
+    }
+
     @Override
     public String toString() {
         return "Collector{" +
@@ -73,7 +77,7 @@ public class Collector implements Serializable {
                 ", title='" + title + '\'' +
                 ", era='" + era + '\'' +
                 ", age='" + age + '\'' +
-                ", contents=" + contents +
-                '}' + '\n';
+                ", contents=" + contents.toString() +
+                '}';
     }
 }

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name= "content_list")
+@Table(name= "contentlist")
 public class ComicContent implements Serializable {
 
     @Id
@@ -49,5 +49,18 @@ public class ComicContent implements Serializable {
 
     public void setCollectors(List<Collector> collectors) {
         this.collectors = collectors;
+    }
+
+    public List<Collector> getCollectors() {
+        return collectors;
+    }
+
+    @Override
+    public String toString() {
+        return "ComicContent{" +
+                "id='" + id + '\'' +
+                ", title='" + title + '\'' +
+                ", series='" + series + '\'' +
+                '}';
     }
 }
