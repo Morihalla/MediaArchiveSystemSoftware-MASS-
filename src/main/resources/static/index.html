@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
 
     <meta charset="UTF-8"/>
@@ -20,8 +20,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-<p class="rounded blogColors ">All Collectors<a href="/Collectors/all" class="text-dark logo">HERE</a></p>
-<p class="rounded blogColors ">All Contents<a href="/Collectors/all" class="text-dark logo">HERE</a></p>
+<p class="rounded issueColors ">All Collectors => <a href="/Collectors/all" class="text-dark logo">HERE</a></p>
+<p class="rounded issueColors ">All Stories => <a href="/Collectors/all" class="text-dark logo">HERE</a></p>
+
+<h2>Search for collectors</h2>
+<form th:object="${collector}" th:action="@{/collectors}" method="get">
+    <input type="text" name="tag" id="tag" th:value="${tag}"/>
+    <input type="submit" value="Tag"/>
+</form>
 
 </body>
 </html>

@@ -1,18 +1,15 @@
 body {
 
-    background-image: url("https://i.pinimg.com/originals/d2/2f/22/d22f225381a4f98e3e242510c42f294f.png");
+    background: url("https://i.pinimg.com/originals/d2/2f/22/d22f225381a4f98e3e242510c42f294f.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 
     margin: 0;
     padding: 0;
 
     font-family: Helvetica, sans-serif;
-    color: aqua;
     background-color: #d2d2d2;
 
-}
-
-.text-dark {
-    color: aquamarine !important;
 }
 
 #logo {
@@ -184,4 +181,8 @@ a {
     opacity: 0.6;
     /* CSS3 */
     position: absolute;
+}
+
+span {
+    background-image: url("https://icon-library.net/images/white-heart-icon-png/white-heart-icon-png-9.jpg");
 }
