@@ -23,8 +23,8 @@
 <p class="rounded issueColors ">All Collectors => <a href="/Collectors/all" class="text-dark logo">HERE</a></p>
 <p class="rounded issueColors ">All Stories => <a href="/Collectors/all" class="text-dark logo">HERE</a></p>
 
-<h1>Search for collectors</h1>
-<form th:object="${search}" th:action="@{/search}" method="get">
+<h1 class="issueDivColor">Search for collectors</h1>
+<form        method="get">
     <input type="text" name="tag" id="tag" th:value="${tag}"/>
     <input type="submit" value="Search"/>
 </form>

@@ -12,6 +12,10 @@ body {
 
 }
 
+h1 {
+    color: darkblue;
+}
+
 #logo {
     display: none;
 }
