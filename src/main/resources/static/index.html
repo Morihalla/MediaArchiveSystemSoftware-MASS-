@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/cosmo/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- en utilisant th:href, tu utilise thymeleaf pour charger le css de ton project en metant "@{path du css} et ca commence depuis le dossier static-->
+    <!-- etant donner que c'est thymeleaf qui fait ca, tu dois charger la page view un controller (IndexController dans notre cas) -->
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+
+    <title>MASS</title>
+
+</head>
+
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<p class="rounded issueColors ">All Collectors => <a href="/Collectors/all" class="text-dark logo">HERE</a></p>
+<p class="rounded issueColors ">All Stories => <a href="/Collectors/all" class="text-dark logo">HERE</a></p>
+
+<h1 class="issueDivColor">Search for collectors</h1>
+
+<!-- Ici ce qu'on a fait, c'est mettre une action qui veux en faite dire: "va vers ce servlet la"-->
+<!-- donc on va vers localhost:8080/<action> et localhost:8080/Collectors/result est le mapping de notre method search-->
+<!-- etant donner qu'on a un input de type text avec le nom tag, a la fin de ce lien sera rajoute ?tag=<l'input du user>-->
+<form method="get" action="/Collectors/result">
+    <input type="text" name="tag" id="tag" th:value="${tag}"/>
+    <input type="submit" value="Search"/>
+</form>
+
+</body>
+</html>
