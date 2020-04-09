@@ -1,78 +1,108 @@
 
 1) Conan the Barbarian
 
-        1)  The coming of Conan!
-        2)  Lair of the beast-men!
-        3)  The twilight of the grim grey god!
-        4)  The tower of the elephant!
-        5)  The claws of the tigress! (Zukala's daughter)
-        6)  Devil-wings over Shadizar!
-        7)  In the coils of the man-serpent! (The lurker within)
-        8)  The keeper of the crypt!
-        9)  The garden of fear!
-        10) Beware the wrath of the Bull-god! (Beware the wrath of Anu!)
-        11) The talons of ... Thak!(Rogues in the house)
-        12) The dweller in the dark
-        13) Web of the spider-god!
-        14) The coming of Elric (A sword called ... Strombringer!)
-        15) The hell-hordes of chaos! (The green empress of Melniboné)
-        16) Night of the frost-giants! (The frostgiant's daughter)
-        17) The devil-god of Bal-Sagoth! (The gods of Bal-Sagoth)
-        18) The thing in the temple!
-        19) Hawks from the sea!
-        20) The black hound of vengeance!
-        21)	The monster of the monoliths!
-        22) The shadow of the vulture! (The coming of Conan!)
-        23) Swords in the night! (The shadow of the vulture!)
-		24)	The song of Red Sonja
-		25)	The murderous mirrors of Kharam-Akkad
-        26) The fall of the towers!
-        27) The blood-jewel of Bel-Hissar!
-        28) The monster of Zimbabwei! (Moon of Zimbabwei!)
-        29) The wizard and the warrior! (Two against Turan!)
-        30) The devil-beasts of Nergal! (The hand of Nergal!)
-        31) The shadow on the tomb!
-        32) Flame winds of lost Khitai
-        33) The gauntlet of the seven deaths! (Death and 7 wizards!)
-        34) The temptress in the tower of flame!
-        35) The hell-spawn of Kara-Shera!
-        36) The fury of the stone god! (Beware the Hyrkanians bearing gifts...!)
-        37) Curse of the golden skull!
-        38) The warrior and the were-woman!
-        39) The dragon from the inland sea!
-        40) The fiend from the forgotten city!
-        41) The garden of death and life!
-        42) Night of the gargoyle!
-        43) Tower of blood!
-        44) The fiend and the flame!
-        45) The demon of dark valley! (The last balade of Laza-Lanti)
-        46) The warrior and the wizard-spawn! (The curse of the conjurer!)
-        47) The goblins strike at midnight! (The goblins in the moonlight!)
-		48)	Rampage at Ravengard! (The rats dance at Ravengard!)
-		49)	Men call her ... wolf-woman! (... whom the gods name Death!)
-		50) The dweller in the pool!
-		51)	Unos! The man-witch whose eyes deal death! (Man born of demon!)
-		52) The god in the crypt! (The altar and the scorpion!)
-		53) Three ... against one lone warrior! (Brothers of the blade!)
-		54) Oracle from hell! (The oracle of Ophir!)
-		55) Between shadow and scorpion! (A shadow on the land!)
-		56) The thing from the tower! (The strange hight tower in the mist!)
-		57) A barbarian chained! (Incident in Argos!)
-		58) Queen of the black coast!
-		59) The ballad of Bêlit!
-		60) Riders of the river-dragons!
-		61) On the track of the she-pirate!
-		62) Lord of the lions!
-		63) Death among the ruins!
-		64) The secret of skull river!
-		65) Fiends of the feathered serpent!
-		66) Daggers and death-gods!
-		67) Talons of the man-tiger!
-		68) Of once and future kings!
-		69) The demon out of the deep!
-		70) The city in the storm!
-		71) The secret of Ashtoreth!
-		
+        1)      The coming of Conan!
+        2)      Lair of the beast-men!
+        3)      The twilight of the grim grey god!
+        4)      The tower of the elephant!
+        5)      The claws of the tigress! (Zukala's daughter)
+        6)      Devil-wings over Shadizar!
+        7)      In the coils of the man-serpent! (The lurker within)
+        8)      The keeper of the crypt!
+        9)      The garden of fear!
+        10)     Beware the wrath of the Bull-god! (Beware the wrath of Anu!)
+        11)     The talons of ... Thak!(Rogues in the house)
+        12)     The dweller in the dark
+        13)     Web of the spider-god!
+        14)     The coming of Elric (A sword called ... Strombringer!)
+        15)     The hell-hordes of chaos! (The green empress of Melniboné)
+        16)     Night of the frost-giants! (The frostgiant's daughter)
+        17)     The devil-god of Bal-Sagoth! (The gods of Bal-Sagoth)
+        18)     The thing in the temple!
+        19)     Hawks from the sea!
+        20)     The black hound of vengeance!
+        21)	    The monster of the monoliths!
+        22)     The shadow of the vulture! (The coming of Conan!)
+        23)     Swords in the night! (The shadow of the vulture!)
+		24)	    The song of Red Sonja
+		25)	    The murderous mirrors of Kharam-Akkad
+        26)     The fall of the towers!
+        27)     The blood-jewel of Bel-Hissar!
+        28)     The monster of Zimbabwei! (Moon of Zimbabwei!)
+        29)     The wizard and the warrior! (Two against Turan!)
+        30)     The devil-beasts of Nergal! (The hand of Nergal!)
+        31)     The shadow on the tomb!
+        32)     Flame winds of lost Khitai
+        33)     The gauntlet of the seven deaths! (Death and 7 wizards!)
+        34)     The temptress in the tower of flame!
+        35)     The hell-spawn of Kara-Shera!
+        36)     The fury of the stone god! (Beware the Hyrkanians bearing gifts...!)
+        37)     Curse of the golden skull!
+        38)     The warrior and the were-woman!
+        39)     The dragon from the inland sea!
+        40)     The fiend from the forgotten city!
+        41)     The garden of death and life!
+        42)     Night of the gargoyle!
+        43)     Tower of blood!
+        44)     The fiend and the flame!
+        45)     The demon of dark valley! (The last balade of Laza-Lanti)
+        46)     The warrior and the wizard-spawn! (The curse of the conjurer!)
+        47)     The goblins strike at midnight! (The goblins in the moonlight!)
+		48)	    Rampage at Ravengard! (The rats dance at Ravengard!)
+		49)	    Men call her ... wolf-woman! (... whom the gods name Death!)
+		50)     The dweller in the pool!
+		51)	    Unos! The man-witch whose eyes deal death! (Man born of demon!)
+		52)     The god in the crypt! (The altar and the scorpion!)
+		53)     Three ... against one lone warrior! (Brothers of the blade!)
+		54)     Oracle from hell! (The oracle of Ophir!)
+		55)     Between shadow and scorpion! (A shadow on the land!)
+		56)     The thing from the tower! (The strange hight tower in the mist!)
+		57)     A barbarian chained! (Incident in Argos!)
+		58)     Queen of the black coast!
+		59)     The ballad of Bêlit!
+		60)     Riders of the river-dragons!
+		61)     On the track of the she-pirate!
+		62)     Lord of the lions!
+		63)     Death among the ruins!
+		64)     The secret of skull river!
+		65)     Fiends of the feathered serpent!
+		66)     Daggers and death-gods!
+		67)     Talons of the man-tiger!
+		68)     Of once and future kings!
+		69)     The demon out of the deep!
+		70)     The city in the storm!
+		71)     The secret of Ashtoreth!
+		72)     Vengeance in Asgalun!
+		73)     He waits below ... in the well of Skelos! (He who waits ... in the well of Skelos!)
+		74)     The serpent from the river Styx! (Battle at the black walls!)
+		75)     The hawk-riders of the forbidden city! (The hawk-riders of Harakht!)
+		76)     Swordless in Stygia
+		77)     When giants walk the earth!
+		78)     Curse of the undead-man
+		79)     The eye of the serpent-got Set! (The lost valley of Iskander!)
+		80)     The man-slayer from another time! (Trial by combat!)
+		81)     The final battle (for the awesome (eye of the serpent!))
+		82)     The sorceress of the swamp!
+		83)     The man-dragons! (The dance of the skull!)
+		84)     Two against the hawk-city!
+		85)     Swords against Stygia! (Of swordsmen en sorcerers!)
+		86)     The devourer of the dead!
+		87.1)   The stalkers of the summit! (Demons at the summit!)
+		87.2)   The hyborian age
+		88)     Titans three ... against the serpent throne! (The queen and the corsairs!)
+		89)     The sword and the serpent-men!
+		90)     Cavern of the giant-kings! (The diadem of the giant-kings!)
+		91)     Fangs of the swamp rats! (Savage doings in Shem!)
+		92)     The thing in the crypt!
+		93)     Empress of Asgalun! (Of rage and revenge!)
+		94)     The beast king of the black coast! (The beast-king of Abombi!)
+		95)     Claws of the cave-creature! (The return of Amra!)
+		96)     The long night of fang and talon! pt. I
+		97)     The long night of fang and talon! pt. II
+		98)     Sea-witch!
+		99)     Man-crabs of the dark cliffs! (Devil-crabs of the dark cliffs!)
+		100)    Death on the black coast!
+
 2) Savage Tales
 
 	1) Issue 2
@@ -117,11 +147,15 @@
     (Volume 9: Rider of the river-dragons (and other stories))
     (CTB #60-63,65,69,71)
 
-    Volume 10
+    (Volume 10: When giants walk the earth (and other stories))
     (CTB #72-77, 79-81)
 
-    Volume 11
-    Volume 12
+    (Volume 11: The dance of the skull (and other stories))
+    (CTB #82-86, 88-90)
+
+    (Volume 12: The beast king of Abombi (and other stories))
+    (CTB #91, 93, 95-100)
+
     Volume 13
     Volume 14
     Volume 15
@@ -145,7 +179,7 @@
     Volume 33
     Volume 34
 
-4) The Barry Windsor-Smith Conan Archives
+4) (The Barry Windsor-Smith Conan Archives)
     
     (Volume 1)
     (CTB #1-11)
@@ -237,38 +271,153 @@
         7)  On to Yimsha pt. I
             On to Yimsha pt. II: The mountain of the black seers
             (SSOCTB #17)
-        8)  The battle of the towers
+        8)  The battle of the towers pt. I
+            The battle of the towers pt. II: Yasmina knows stark terror
+            The battle of the towers pt. III: The castle of the wizards
             (SSOCTB #18)
         9)  Vengeance in Vendhya
             (SSOCTB #19)
-        10) The slithering shadow
+        10) The slithering shadow pt. I
+            The slithering shadow pt. II: The tentacles of Thog
+            The slithering shadow pt. III: Xuthal of the dusk
             (SSOCTB #20)
-        11) Horror from the red tower
+        11) Horror from the red tower pt. I
+            Horror from the red tower pt. II: The house of the god
+            Horror from the red tower pt. III: The thing from the sky
             (SSOCTB #21)
-        12) The pool of the black one
+        12) The pool of the black one pt. I
+            The pool of the black one pt. II: The scream on the beach
+            The pool of the black one pt. III: The dance of death
             (SSOCTB #22)
         13) Torrent of doom
             (SSOCTB #23)
-        14) The tower of the elephant
+        14) The tower of the elephant prologue
             (SSOCTB #24)
+
+    Volume 3
+        1)  Cimmeria
+            (SSOCTB #24)
+        2)  Jewels of Gwahlur!: prologue
+            Jewels of Gwahlur pt. I
+            Jewels of Gwahlur pt. II: A goddess awakens
+            Jewels of Gwahlur pt. III: The teeth of the gods!
+            (SSOCTB #25)
+        3)  Beyond the black river pt. I
+            Beyond the black river pt. II: The wizard of Gwawela
+            Beyond the black river pt. III: The crawlers in the dark
+            Beyond the black river pt. IV: The beasts of Zogar Sag
+            (SSOCTB #26)
+        4)  The children of Jebbal Sag
+            The children of Jebbal Sag: Epilogue
+            (SSOCTB #27)
+        5)  The blood of the gods pt. I
+            The blood of the gods pt. II: The creature of the caves
+            (SSOCTB #28)
+        6)  Child of sorcery: prologue
+            Child of sorcery
+            (SSOCTB #29)
+        7)  The scarlet citadel pt. I
+            The scarlet citadel pt. II: A king in chains
+            The scarlet citadel pt. III: Warrior and wizard
+            The scarlet citadel pt. IV: Wings of horror
+            The scarlet citadel pt. V: Triumph by the Tybor
+            (SSOCTB #30)
+        8)  The flame knive pt. I
+            The flame knive pt. II: The black country
+            (SSOCTB #31)
+        9)  The ghouls of Yanaidar
+            (SSOCTB #32)
+        10) The curse of the monolith
+            (SSOCTB #33)
+        11) The lair of the ice worm
+            (SSOCTB #34)
+        12) Black tears
+            (SSOCTB #35)
+        13) Hawks over Shem pt. I
+            Hawks over Shem pt. II: The lion of Shem
+            Hawks over Shem pt. III: The god that tried to fly
+            (SSOCTB #36)
+        14) The hyborian age
+            (SSOCTB #9)
+    Volume 3
+        1)  Sons of the white wolf pt. I
+            Sons of the white wolf pt. II: Massacre at Djemal
+            Sons of the white wolf pt. III: The call of blood
+            Sons of the white wolf pt. IV: Wolves of the desert
+            Sons of the white wolf pt. V: Treachery!
+            (SSOCTB #37)
+        2)  The road of the eagles pt. I
+            The road of the eagles pt. II: The hour of the undead
+            (SSOCTB #38)
+        3)  Legions of the dead
+            (SSOCTB #39)
+        4)  A dream of blood pt. I
+            A dream of blood pt. II: A knive in the dark
+            A dream of blood pt. III: The island without a name
+            (SSOCTB #40)
+        5)  The quest for the cobra crown pt. I
+            The quest for the cobra crwon pt. II: City of the amazons
+            (SSOCTB #41)
+        6)  The devil-tree of Gamburu pt. I
+            The devil-tree of Gamburu pt. II: Plants that devour
+            (SSOCTB #42)
+        7)  King Toth-Amon pt. I
+            King Toth-Amon pt. II: Red blood and cold steel
+            (SSOCTB #43)
+        8)  The star of Khorala
+            (SSOCTB #44)
+        9)  The gem in the tower pt. I
+            The gem in the tower pt. II: Death from above
+            (SSOCTB #45)
+        10) Moon of blood
+            (SSOCTB #46)
+        11) The treasure of Tranicos
+            (SSOCTB #47)
+        12) A wind blows from Stygia
+            (SSOCTB #48)
 
 
 7) Marvel Feature
-        1) Red Sonja - The temple of abomination
-        2) Blood of the hunter
-		3) Balek lives
-		4) Eyes of the gorgon
-		5) The bear god walks!
-		6) Beware the sacred sons of Set
-		7) The battle of the barbarians
+        1)  Red Sonja - The temple of abomination
+        2)  Blood of the hunter
+		3)  Balek lives
+		4)  Eyes of the gorgon
+		5)  The bear god walks!
+		6)  Beware the sacred sons of Set
+		7)  The battle of the barbarians
 
-8) The adventures of Red Sonja
+8) Red Sonja
+        1)  To the death! (The blood of the unicorn)
+        2)  The demon in the maze!
+        3)  Web of the spider-queen! (The games of Gita)
+        4)  The lurkers in the lake! (The lake of the unknown!)
+        5)  The dragon in the pit! (Master of the bells!)
+        6)  The siren of the singing tower!
+        7)  The blade and the behemoths! (Throne of blood!)
+        8)  The serpent is a sorceress! (Vengeance of the golden circle!)
+        9)  Chariot of the fire-stallions!
+        10) Angels from hell! (Red lace pt. I)
+        11) Sightless in a strange land! (Red lace pt. II)
+        12) Ashes and emblems!
+        13) Swords against Skranos! (Shall Skranos fall?)
+        14) The river of the dead! (An evening on the border)
+        15) The tomb of three dead kings!
+
+9) The adventures of Red Sonja
 
     Volume 1
         (MF #1-7)
+    Volume 2
+        (RS #1-7)
+    Volume 3
+        (RS #8-15)
+
+10) Marvel Team-up Spiderman & Red Sonja
+    Sword of the she-devil!
 
 CTB = Conan the Barbarian
 ST = Savage Tales
 STOCTB = Savage Tales of Conan the Barbarian
 SSOCTB = Savage Sword of Conan the Barbarian
 MF = Marvel Feature
+RS = Red Sonja
